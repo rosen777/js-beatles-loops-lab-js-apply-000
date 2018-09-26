@@ -53,11 +53,12 @@ johnLennonFacts([
     var message = [ ]
     var i = 0
     do{
-      countdown++
       message.push("I love the Beatles!")
+      countdown++
     } 
     while(countdown < 15)
     return message
   }
   
   iLoveTheBeatles(9)
+  
